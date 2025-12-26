@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Mail, Phone, MapPin, ChevronRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -10,7 +11,7 @@ const Footer: React.FC = () => {
         {/* Brand Column */}
         <div className="p-10 md:col-span-1">
           <span className="text-2xl font-display font-bold tracking-tighter text-white uppercase block mb-6">
-            THIQAH <span className="text-primary-500">EXIM GLOBAL</span>
+            THIQAH <span className="text-primary-500">GLOBAL EXIM</span>
           </span>
           <p className="text-gray-500 text-sm font-medium leading-relaxed">
             Premium table egg exports. Reliability tailored for the global market. Delivering quality from India to the world.
@@ -51,7 +52,7 @@ const Footer: React.FC = () => {
               <span className="block text-[10px] text-gray-600 uppercase tracking-[0.2em] mb-2">Inquiries</span>
               <div className="flex items-center gap-3">
                 <Mail size={18} className="text-primary-500" />
-                <span className="text-white font-bold group-hover:text-primary-500 transition-colors">contact@tkseximglobal.com</span>
+                <span className="text-white font-bold group-hover:text-primary-500 transition-colors">contact@thiqahglobalexim.com</span>
               </div>
             </div>
             <div className="sm:col-span-2 group cursor-pointer">
@@ -68,14 +69,14 @@ const Footer: React.FC = () => {
 
       <div className="p-6 flex flex-col md:flex-row justify-between items-center bg-zinc-950">
         <p className="text-xs text-gray-600 font-mono uppercase">
-          &copy; {new Date().getFullYear()} Thiqah Exim Global. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Thiqah Global Exim. All Rights Reserved.
         </p>
         <div className="flex gap-6 mt-4 md:mt-0">
           <p className="text-xs text-gray-600 font-mono uppercase">
             Designed for Excellence
           </p>
           <p className="text-xs text-gray-600 font-mono uppercase">
-            thiqaheximglobal.com
+            thiqahglobalexim.com
           </p>
         </div>
       </div>

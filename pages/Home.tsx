@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { 
@@ -203,7 +204,7 @@ const Home: React.FC = () => {
             POWERING THE GLOBAL FOOD CHAIN.
           </h2>
           <p className="text-gray-400 text-lg leading-relaxed max-w-xl">
-            Thiqah Exim Global is a trusted poultry export company from Kerala. We don't just ship eggs; we engineer a reliable supply chain for wholesalers, hypermarkets, and food services worldwide.
+            Thiqah Global Exim is a trusted poultry export company from Kerala. We don't just ship eggs; we engineer a reliable supply chain for wholesalers, hypermarkets, and food services worldwide.
           </p>
         </div>
         <div className="grid grid-rows-2 divide-y divide-white/10">

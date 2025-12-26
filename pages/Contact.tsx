@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Phone, Mail, MapPin, Send, ArrowRight, CheckCircle, Loader2 } from 'lucide-react';
 
@@ -84,7 +85,7 @@ const Contact: React.FC = () => {
               </div>
               <h3 className="text-3xl font-display font-bold text-white mb-4 uppercase">Inquiry Received</h3>
               <p className="text-gray-400 text-lg max-w-md mb-10 leading-relaxed">
-                Thank you for choosing Thiqah Exim Global. Our export team has received your details and will contact you within 24 hours.
+                Thank you for choosing Thiqah Global Exim. Our export team has received your details and will contact you within 24 hours.
               </p>
               <button 
                 onClick={() => setStatus('idle')}
